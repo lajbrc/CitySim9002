@@ -35,11 +35,11 @@ public class ValidatorTest {
     }
     
     //The input should not be empty.
-    //This test cannot be done in NetBeans
-//    @Test
-//    public void ifEmptyArgumentIsProvidedReturnFalse(){
-//        Assert.assertFalse(new Validator().validateNumberOfArguments(new String[] {""}));
-//    }
+    @Test
+    public void ifEmptyArgumentIsProvidedReturnFalse(){
+        Assert.assertFalse(new Validator().validateArguments(new String[] {""}));
+//      Assert.assertFalse(new Validator().validateNumberOfArguments(new String[] {""}));
+    }
     
     //Test for method validateArgumentType
     //The input seed should be an integer.
