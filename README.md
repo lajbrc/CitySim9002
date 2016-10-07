@@ -1,6 +1,6 @@
 # IS2545 - DELIVERABLE 2: Unit Testing
 
-The program CitySim9002 is runnable with the command 'java -jar CitySim9002.jar n' where n is any int.
+The program CitySim9002 is runnable with the command 'java CitySim9002 n' where n is any int.
 
 ## ISSUES
 
